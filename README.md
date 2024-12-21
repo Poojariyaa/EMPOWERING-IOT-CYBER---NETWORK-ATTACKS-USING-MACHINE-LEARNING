@@ -39,15 +39,6 @@ The dataset features unique identifiers (FLOW_ID), protocol details, timestamps,
   - Metrics like accuracy, precision, recall, and F1-score are used to evaluate performance.
 
 
-
-## Output and Predictions"
-### Training Output: 
-  Trained models can accurately classify whether a network flow contains no attack (None), or if it involves Port Scanning, DoS, or Malware.
-### Testing Predictions: 
-  Predictions on test_net.csv help assess real-world applicability.
-
----
-
 ## *Visualization and Insights*:
 ### UMAP and PCA*:
   Used for visualizing high-dimensional data in 2D or 3D plots, showing clusters for different attack types.
@@ -80,3 +71,11 @@ The dataset features unique identifiers (FLOW_ID), protocol details, timestamps,
 7. *Neural Network (MLPClassifier)*:
    - A multi-layer perceptron that captures complex patterns in the data.
    - Particularly useful for high-dimensional and non-linear datasets.
+  
+ 
+## Output and Predictions"
+### Training Output: 
+  Trained models can accurately classify whether a network flow contains no attack (None), or if it involves Port Scanning, DoS, or Malware.
+### Testing Predictions: 
+  Predictions on test_net.csv help assess real-world applicability.
+
